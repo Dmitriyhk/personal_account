@@ -1,0 +1,43 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 24px;
+  background: #333333;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #ffffff;
+  border: none;
+  width: 100%;
+  &:hover {
+    background: #222222;
+  }
+}
+
+.blue {
+  background: #007aff;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  &:hover {
+    background: #0040ff;
+  }
+}
+
+.transparent {
+  background: none;
+  color: #007aff;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 4px;
+  width: max-content;
+  &:hover {
+    background: none;
+    color: #0040ff;
+  }
+}
