@@ -1,0 +1,57 @@
+.form {
+  padding: 48px;
+  &_logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 48px;
+    &__icon {
+      width: 70px;
+      height: 70px;
+    }
+    &__text {
+      color: #1a1a1a;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+  &_main {
+    margin: 24px auto 32px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e5e5e5;
+    &__inputs {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+    &__error {
+      height: 20px;
+      display: block;
+      text-align: center;
+      margin-top: 8px;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 20px;
+      letter-spacing: 0.3px;
+      color: #ff0000;
+    }
+  }
+  &_signUp {
+    display: block;
+    text-align: center;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    color: #1a1a1a;
+    & a {
+      color: #007aff;
+      &:hover {
+        color: #0047b2;
+      }
+    }
+  }
+}
